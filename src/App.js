@@ -69,7 +69,7 @@ return(<div key={id}>
     </div>
 
     <div className="container">
-<button className='btntwoo' onClick={() => removeCake([id])}>Закрыть</button>
+<button className='btntwoo' onClick={() => removeCake(id)}>Закрыть</button>
       </div>
     </div>   
 )
